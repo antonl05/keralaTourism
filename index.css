@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  font-family:"Times New Roman", sans-serif;
+  font-weight: 900;
+  font-size: 105%;
+  background-size: cover;
+  animation-name: background-image-rotate;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-attachment: fixed;
+}
+
+#top-box {
+  display: flex;
+  transform: translate(-50px, 60px) scale(1);
+  /*background-color: white;*/
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 5%;
+}
+heading {
+  color:black;transform: scale(2) translate(-15px,-15px);
+}
+nav {
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.top-each-box {
+  text-align: center;
+  font-size: 1.3em;
+  width: 7%;
+  border-radius: 20px;
+  height: auto;
+}
+/*.top-each-box:hover {}*/ 
+h1 {
+  text-align: center;
+}
+img {
+  margin: auto auto;
+  justify-content: center;
+  display:block; 
+}
+a {color: black;}
+a:link {text-decoration: none;
+}
+
+
+@keyframes background-image-rotate {
+0% {
+background-image: linear-gradient(rgba(0, 0, 0, 0.60),
+rgba(0, 0, 0, 0.1)),url("images/boat.jpg");}
+25% {
+background-image: linear-gradient(rgba(0, 0, 0, 0.60),
+rgba(0, 0, 0, 0.1)),url("images/boat2.jpg");}
+50% {
+background-image: linear-gradient(rgba(0, 0, 0, 0.60)
+, rgba(0, 0, 0, 0.1)),url("images/boat3.jpeg");}
+75% {
+background-image: linear-gradient(rgba(0, 0, 0, 0.60), 
+rgba(0, 0, 0, 0.1)),url("images/kadhakali.jpeg");}
+100% {
+background-image: linear-gradient(rgba(0, 0, 0, 0.60), 
+rgba(0, 0, 0, 0.1)),url("images/lighthouse.jpg");}
+}
