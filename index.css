@@ -51,18 +51,27 @@ a:link {text-decoration: none;
 
 @keyframes background-image-rotate {
 0% {
-background-image: linear-gradient(rgba(0, 0, 0, 0.60),
-rgba(0, 0, 0, 0.1)),url("images/boat.jpg");}
+background-image: linear-gradient(rgba(0, 0, 0, 0.70),
+rgba(0, 0, 0, 0.6)),url("images/boat.jpg");}
 25% {
-background-image: linear-gradient(rgba(0, 0, 0, 0.60),
-rgba(0, 0, 0, 0.1)),url("images/boat2.jpg");}
+background-image: linear-gradient(rgba(0, 0, 0, 0.70),
+rgba(0, 0, 0, 0.6)),url("images/boat2.jpg");}
 50% {
-background-image: linear-gradient(rgba(0, 0, 0, 0.60)
-, rgba(0, 0, 0, 0.1)),url("images/boat3.jpeg");}
+background-image: linear-gradient(rgba(0, 0, 0, 0.70)
+, rgba(0, 0, 0, 0.6)),url("images/boat3.jpeg");}
 75% {
-background-image: linear-gradient(rgba(0, 0, 0, 0.60), 
-rgba(0, 0, 0, 0.1)),url("images/kadhakali.jpeg");}
+background-image: linear-gradient(rgba(0, 0, 0, 0.70), 
+rgba(0, 0, 0, 0.6)),url("images/kadhakali.jpeg");}
 100% {
-background-image: linear-gradient(rgba(0, 0, 0, 0.60), 
-rgba(0, 0, 0, 0.1)),url("images/lighthouse.jpg");}
+background-image: linear-gradient(rgba(0, 0, 0, 0.70), 
+rgba(0, 0, 0, 0.6)),url("images/lighthouse.jpg");}
+}
+
+#galleryImgBox {
+  background-color:red;
+  color: white;
+  width: auto;
+  height: auto;
+  margin: auto auto;
+  padding: 1% 1% 1% 1%;
 }
