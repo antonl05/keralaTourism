@@ -1,7 +1,5 @@
 body {
-  font-family: "Times New Roman", sans-serif;
   font-weight: 900;
-  font-size: 105%;
   animation: background-image-rotate 15s linear infinite alternate;
   background-size: cover;
   background-attachment: fixed;
