@@ -2,10 +2,8 @@ body {
   font-family: "Times New Roman", sans-serif;
   font-weight: 900;
   font-size: 105%;
+  animation: background-image-rotate 15s linear infinite alternate;
   background-size: cover;
-  animation-name: background-image-rotate;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
   background-attachment: fixed;
 }
 
@@ -99,4 +97,16 @@ a:link {
   margin: auto auto;
   border-radius: 3%;
   padding: 1% 1% 1% 1%;
+}
+
+#main-text {
+  color:white;
+  text-align:center;
+  overflow-x:hidden;
+  width:80%;
+  height:75%;
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform:translate(-50%, -50%);
 }
